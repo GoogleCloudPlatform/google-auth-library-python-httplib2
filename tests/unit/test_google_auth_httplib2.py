@@ -18,7 +18,7 @@ import six
 from six.moves import http_client
 
 import google_auth_httplib2
-from tests import compliance
+from tests.unit import compliance
 
 
 class MockHttp(object):

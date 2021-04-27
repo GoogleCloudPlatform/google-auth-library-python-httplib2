@@ -18,7 +18,7 @@ from setuptools import setup
 
 version = "0.1.0"
 
-DEPENDENCIES = ["google-auth", "httplib2 >= 0.15.0", "six"]
+DEPENDENCIES = ["google-auth>=1.0.0", "httplib2 >= 0.17.0"]
 
 
 with io.open("README.rst", "r") as fh:
